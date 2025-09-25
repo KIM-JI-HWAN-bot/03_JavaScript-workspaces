@@ -144,11 +144,11 @@ console.log(y); // 4 (20)
 function hoistingTset() {
   console.log(a); // undefined
   b = 20;
-  console.log(b); // 100
+  console.log(b); // 20
   var a = 100;
-  console.log(a); // 20
+  console.log(a); // 100
   if (true) {
-    console.log(b); // 100
+    console.log(b); // 20
     var b = 200;
   }
   console.log(b); // 200

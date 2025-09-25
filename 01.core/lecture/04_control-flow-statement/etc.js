@@ -32,7 +32,8 @@ while (true) {
 }
 
 let sum = 0;
-for (let i = 1; 1 <= 100; i++) {
+
+for (let i = 1; i <= 100; i++) {
   if (i % 6 === 0) {
     continue;
   }

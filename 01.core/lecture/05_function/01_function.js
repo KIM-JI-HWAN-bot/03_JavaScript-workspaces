@@ -180,8 +180,8 @@ console.log(result);
 function printMessge(name) {
   if (!name) {
     return;
-    console.log(`${name}님 환영합니다!`);
   }
+  console.log(`${name}님 환영합니다!`);
 }
 printMessge("홍길동");
 printMessge("");
